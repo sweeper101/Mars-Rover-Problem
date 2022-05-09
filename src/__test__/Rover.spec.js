@@ -3,6 +3,7 @@ import SpinRight from "../Components/MarsRover/roverFunctions/SpinRight";
 import StepForward from "../Components/MarsRover/roverFunctions/StepForward";
 import netMovement from "../Components/MarsRover/roverFunctions/netMovement";
 import netDirection from "../Components/MarsRover/roverFunctions/netDirection";
+import roverCommand from "../Components/MarsRover/roverFunctions/roverCommand";
 // function to describe the possible movements for rover
 describe("Unit Movement Of Rover Tests", () => {
   //Spinleft;
