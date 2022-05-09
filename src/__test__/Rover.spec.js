@@ -20,4 +20,9 @@ describe("Unit Movement Of Rover Tests", () => {
   });
 });
 
-describe("Net Calculations Of Rover", () => {});
+describe("Net Calculations Of Rover", () => {
+  //Net Direction;
+  test("Net Direction", () => {
+    expect(netDirection("N", 2, 1)).toBe("W");
+  });
+});
