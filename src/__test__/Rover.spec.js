@@ -30,4 +30,6 @@ describe("Net Calculations Of Rover", () => {
   test("Net Movement", () => {
     expect(netMovement([1, 2, "N"], 5)).toStrictEqual([1, 7, "N"]);
   });
+
+  describe("total movement of rover", () => {});
 });
