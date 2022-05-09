@@ -27,5 +27,6 @@ export default function roverCommand(gridSize, intial, command) {
   } else {
     console.log("error x value is out of bounds");
   }
+  console.log(finalPosition);
   return finalPosition;
 }

@@ -51,3 +51,12 @@ describe("total movement of rover", () => {
     ]);
   });
 });
+describe("total movement of rover", () => {
+  test("movement", () => {
+    expect(roverCommand([5, 5], [3, 3, "N"], "MMRMMRMRRM")).toStrictEqual([
+      1,
+      3,
+      "N",
+    ]);
+  });
+});
