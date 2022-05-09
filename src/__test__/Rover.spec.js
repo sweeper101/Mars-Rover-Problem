@@ -11,4 +11,11 @@ describe("Unit Movement Of Rover Tests", () => {
     expect(SpinRight("N")).toBe("E");
     expect(SpinRight("W")).toBe("N");
   });
+
+  //StepForward;
+  test("StepForward", () => {
+    expect(StepForward(1, 1, "N")).toStrictEqual([1, 2, "N"]);
+    expect(StepForward(1, 1, "W")).toStrictEqual([0, 1, "W"]);
+    expect(StepForward(4, 1, "S")).toStrictEqual([4, 0, "S"]);
+  });
 });
