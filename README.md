@@ -6,12 +6,14 @@ Rovers are due to land on Mars on a plateau. They will be navigated around the p
 
 In the project directory, you can run:
 
-### `npm start`
+### `Steps to start application`
+1.### `npm install`
+installs the node module dependencies
 
+2.### `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm run test`
-
+3.### `npm run test`
 Launches the test runner in the interactive watch mode.\
 
