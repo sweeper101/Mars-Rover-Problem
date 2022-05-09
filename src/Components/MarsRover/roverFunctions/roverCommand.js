@@ -20,12 +20,15 @@ export default function roverCommand(gridSize, intial, command) {
     if (y <= maxY && y >= 0) {
       arrCommand.forEach((element) => {
         finalPosition = obj[element];
+        console.log("inside loop " + finalPosition);
       });
+      console.log("outside loop " + finalPosition);
     } else {
       console.log("error y value is out of bounds");
     }
   } else {
     console.log("error x value is out of bounds");
   }
+  console.log("This is " + finalPosition);
   return finalPosition;
 }
