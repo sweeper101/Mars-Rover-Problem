@@ -1,5 +1,6 @@
 import SpinLeft from "../Components/MarsRover/roverFunctions/SpinLeft";
 import SpinRight from "../Components/MarsRover/roverFunctions/SpinRight";
+import StepForward from "../Components/MarsRover/roverFunctions/StepForward";
 // function to describe the possible movements for rover
 describe("Unit Movement Of Rover Tests", () => {
   //Spinleft;
