@@ -5,4 +5,10 @@ describe("Unit Movement Of Rover Tests", () => {
     expect(SpinLeft("N")).toBe("W");
     expect(SpinLeft("E")).toBe("N");
   });
+
+  //SpinRight;
+  test("SpinRight", () => {
+    expect(SpinRight("N")).toBe("E");
+    expect(SpinRight("W")).toBe("N");
+  });
 });
