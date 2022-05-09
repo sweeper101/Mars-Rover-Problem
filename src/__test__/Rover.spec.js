@@ -25,4 +25,9 @@ describe("Net Calculations Of Rover", () => {
   test("Net Direction", () => {
     expect(netDirection("N", 2, 1)).toBe("W");
   });
+
+  //Net netMovement;
+  test("Net Movement", () => {
+    expect(netMovement([1, 2, "N"], 5)).toStrictEqual([1, 7, "N"]);
+  });
 });
